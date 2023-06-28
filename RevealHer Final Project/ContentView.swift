@@ -9,13 +9,31 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("RevealHer")
+        NavigationStack {
+            VStack {
+                Image("women")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                
+                
+                Spacer()
+                Text("Welcome to RevealHer")
+                    .font(.title)
+                    .fontWeight(.regular)
+                    .fontDesign(.rounded)
+                Text("Select a Field")
+                    .multilineTextAlignment(.leading)
+                
+                
+                
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+            }
+            .navigationTitle("RevealHer")
+            
         }
-        .padding()
     }
 }
 
