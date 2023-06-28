@@ -13,7 +13,7 @@ struct SwiftUIView: View {
             Color("mid-purple")
                 .ignoresSafeArea()
             VStack(alignment: .center, spacing: 40.0) {
-                Image("Rosalind Franklin")
+                Image("IDAB")
                     .resizable()
                     .aspectRatio(contentMode:.fit)
                     .cornerRadius(18)
@@ -27,7 +27,7 @@ struct SwiftUIView: View {
                         .multilineTextAlignment(.center)
                 }
                 
-                Text("African-American journalist and activist who led an anti-lynching crusade in the United States in the 1890s.")
+                Text("Ida B. Wells was an American investigative jounralist, educator, and civil rights activist who was one of the founders of the National Association for the Advancement of Colored People (NAACP). She used her platform as a journalist to talk about the conditions of tsegregated schools in the south, and she investigated the lynching cases in the South.")
                     .fontWeight(.light)
                     .multilineTextAlignment(.center)
                    
