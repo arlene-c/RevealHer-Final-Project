@@ -13,6 +13,9 @@
 		F30A24942A4B88BA00C25881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30A24932A4B88BA00C25881 /* Assets.xcassets */; };
 		F30A24972A4B88BA00C25881 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30A24962A4B88BA00C25881 /* Preview Assets.xcassets */; };
 		F30A249E2A4B8B7F00C25881 /* Flashcard 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A249D2A4B8B7F00C25881 /* Flashcard 1.swift */; };
+		F30A24C52A4CE09B00C25881 /* Shirley Chisholm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A24C42A4CE09B00C25881 /* Shirley Chisholm.swift */; };
+		F30A24C72A4CE0C900C25881 /* Anna Bissell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A24C62A4CE0C900C25881 /* Anna Bissell.swift */; };
+		F30A24C92A4CE13300C25881 /* Grace Hopper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A24C82A4CE13300C25881 /* Grace Hopper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		F30A24932A4B88BA00C25881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F30A24962A4B88BA00C25881 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F30A249D2A4B8B7F00C25881 /* Flashcard 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Flashcard 1.swift"; sourceTree = "<group>"; };
+		F30A24C42A4CE09B00C25881 /* Shirley Chisholm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shirley Chisholm.swift"; sourceTree = "<group>"; };
+		F30A24C62A4CE0C900C25881 /* Anna Bissell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Anna Bissell.swift"; sourceTree = "<group>"; };
+		F30A24C82A4CE13300C25881 /* Grace Hopper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Grace Hopper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				F30A24912A4B88B600C25881 /* ContentView.swift */,
 				F30A249D2A4B8B7F00C25881 /* Flashcard 1.swift */,
 				76A7515A2A4CCFF10020C382 /* SwiftUIView.swift */,
+				F30A24C42A4CE09B00C25881 /* Shirley Chisholm.swift */,
+				F30A24C62A4CE0C900C25881 /* Anna Bissell.swift */,
+				F30A24C82A4CE13300C25881 /* Grace Hopper.swift */,
 				F30A24932A4B88BA00C25881 /* Assets.xcassets */,
 				F30A24952A4B88BA00C25881 /* Preview Content */,
 			);
@@ -144,9 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F30A249E2A4B8B7F00C25881 /* Flashcard 1.swift in Sources */,
+				F30A24C72A4CE0C900C25881 /* Anna Bissell.swift in Sources */,
+				F30A24C52A4CE09B00C25881 /* Shirley Chisholm.swift in Sources */,
 				F30A24922A4B88B600C25881 /* ContentView.swift in Sources */,
 				76A7515B2A4CCFF10020C382 /* SwiftUIView.swift in Sources */,
 				F30A24902A4B88B600C25881 /* RevealHer_Final_ProjectApp.swift in Sources */,
+				F30A24C92A4CE13300C25881 /* Grace Hopper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
