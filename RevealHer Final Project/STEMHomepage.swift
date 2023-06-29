@@ -9,12 +9,44 @@ import SwiftUI
 
 struct STEMHomepage: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+        NavigationStack {
+            VStack(alignment: .center) {
+                Text("Women in STEM")
+                    .font(.custom("AbrilFatface-Regular", size:50))
+                    .font(.title)
+                    .fontWeight(.bold)
+                
+                
+                Image("STEM")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                
+                Text("Who would you like to learn about today?")
+                    .font(.custom("AbrilFatface-Regular", size:30))
+                    .font(.title)
+                    .fontWeight(.regular)
+                    .multilineTextAlignment(.center)
+                HStack {
+                    NavigationLink(destination:Flashcard_1()) {
+                        Text("Rosalind Franklin")
+                            .font(.custom("Montserrat-VariableFont_wght",size:30))
+                   
 
-struct STEMHomepage_Previews: PreviewProvider {
-    static var previews: some View {
-        STEMHomepage()
+                    }
+                }
+                Spacer()
+                Spacer()
+                
+            }
+            
+            
+        }
+    }
+    
+    
+    struct STEMHomepage_Previews: PreviewProvider {
+        static var previews: some View {
+            STEMHomepage()
+        }
     }
 }
