@@ -13,6 +13,7 @@
 		76A751632A4DF86A0020C382 /* Mae Jemison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A751622A4DF86A0020C382 /* Mae Jemison.swift */; };
 		76A751672A4DFA1E0020C382 /* Michelle Obama.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A751662A4DFA1E0020C382 /* Michelle Obama.swift */; };
 		76A751692A4DFB2F0020C382 /* Angela Merkel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A751682A4DFB2F0020C382 /* Angela Merkel.swift */; };
+		76A7516C2A4DFC7A0020C382 /* Hedy Lamar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A7516B2A4DFC7A0020C382 /* Hedy Lamar.swift */; };
 		F30A24902A4B88B600C25881 /* RevealHer_Final_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A248F2A4B88B600C25881 /* RevealHer_Final_ProjectApp.swift */; };
 		F30A24922A4B88B600C25881 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A24912A4B88B600C25881 /* ContentView.swift */; };
 		F30A24942A4B88BA00C25881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30A24932A4B88BA00C25881 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		76A751622A4DF86A0020C382 /* Mae Jemison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mae Jemison.swift"; sourceTree = "<group>"; };
 		76A751662A4DFA1E0020C382 /* Michelle Obama.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Michelle Obama.swift"; sourceTree = "<group>"; };
 		76A751682A4DFB2F0020C382 /* Angela Merkel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Angela Merkel.swift"; sourceTree = "<group>"; };
+		76A7516B2A4DFC7A0020C382 /* Hedy Lamar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hedy Lamar.swift"; sourceTree = "<group>"; };
 		F30A248C2A4B88B600C25881 /* RevealHer Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RevealHer Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F30A248F2A4B88B600C25881 /* RevealHer_Final_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealHer_Final_ProjectApp.swift; sourceTree = "<group>"; };
 		F30A24912A4B88B600C25881 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				76A751602A4DF5350020C382 /* Frida Kahlo.swift */,
 				76A751662A4DFA1E0020C382 /* Michelle Obama.swift */,
 				76A751682A4DFB2F0020C382 /* Angela Merkel.swift */,
+				76A7516B2A4DFC7A0020C382 /* Hedy Lamar.swift */,
 				F30A24932A4B88BA00C25881 /* Assets.xcassets */,
 				F30A24952A4B88BA00C25881 /* Preview Content */,
 			);
@@ -179,6 +182,7 @@
 				76A751672A4DFA1E0020C382 /* Michelle Obama.swift in Sources */,
 				76A751692A4DFB2F0020C382 /* Angela Merkel.swift in Sources */,
 				F30A24C92A4CE13300C25881 /* Grace Hopper.swift in Sources */,
+				76A7516C2A4DFC7A0020C382 /* Hedy Lamar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
