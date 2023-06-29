@@ -1,35 +1,36 @@
 //
-//  SwiftUIView.swift
+//  Dororthy Arzner.swift
 //  RevealHer Final Project
 //
-//  Created by Kate Hwang on 6/28/23.
+//  Created by Kate Hwang on 6/29/23.
 //
 
 import SwiftUI
 
-struct SwiftUIView: View {
+struct Dororthy_Arzner: View {
     var body: some View {
         ZStack {
             Color("mid-purple")
                 .ignoresSafeArea()
             VStack(alignment: .center, spacing: 40.0) {
-                Image("IDAB")
+                Image("DorothyArzner")
                     .resizable()
                     .aspectRatio(contentMode:.fit)
                     .cornerRadius(18)
                 HStack {
-                    Text("Ida B. Wells")
+                    Text("Dorothy Arzner")
                         .font(.title)
                         .fontWeight(.heavy)
                         .multilineTextAlignment(.center)
                         
-                    Text("The Radical Journalist")
+                    Text("The 1930s Queen")
                         .multilineTextAlignment(.center)
                 }
                 
-                Text("Ida B. Wells was an American investigative jounralist, educator, and civil rights activist who was one of the founders of the National Association for the Advancement of Colored People (NAACP). She used her platform as a journalist to talk about the conditions of tsegregated schools in the south, and she investigated the lynching cases in the South.")
+                Text("Dorothy Arzner was the first woman to join the Directors Guild of American and the first woman to direct a soun film. She made a total of twenty films between 1927 and 1943, launchin the careers of a number of Hollywood actresses, including Katharine Hpeburn, Rosalind Russell, and Lucille Ball.")
                     .fontWeight(.light)
                     .multilineTextAlignment(.center)
+            
                    
                 
             }
@@ -41,8 +42,8 @@ struct SwiftUIView: View {
     }
 }
 
-struct SwiftUIView_Previews: PreviewProvider {
+struct Dororthy_Arzner_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIView()
+        Dororthy_Arzner()
     }
 }

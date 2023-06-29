@@ -13,7 +13,7 @@ struct Grace_Hopper: View {
                     Color("periwinkle")
                         .ignoresSafeArea()
                     VStack(alignment: .center, spacing: 40.0) {
-                        Image("")
+                        Image("GraceHopper")
                             .resizable()
                             .aspectRatio(contentMode:.fit)
                             .cornerRadius(18)

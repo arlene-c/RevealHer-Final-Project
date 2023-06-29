@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		76A7515B2A4CCFF10020C382 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A7515A2A4CCFF10020C382 /* SwiftUIView.swift */; };
+		76A7515D2A4DF27C0020C382 /* Ida B. Wells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A7515C2A4DF27C0020C382 /* Ida B. Wells.swift */; };
+		76A7515F2A4DF2AB0020C382 /* Dororthy Arzner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A7515E2A4DF2AB0020C382 /* Dororthy Arzner.swift */; };
 		F30A24902A4B88B600C25881 /* RevealHer_Final_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A248F2A4B88B600C25881 /* RevealHer_Final_ProjectApp.swift */; };
 		F30A24922A4B88B600C25881 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A24912A4B88B600C25881 /* ContentView.swift */; };
 		F30A24942A4B88BA00C25881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30A24932A4B88BA00C25881 /* Assets.xcassets */; };
@@ -19,7 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		76A7515A2A4CCFF10020C382 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		76A7515C2A4DF27C0020C382 /* Ida B. Wells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ida B. Wells.swift"; sourceTree = "<group>"; };
+		76A7515E2A4DF2AB0020C382 /* Dororthy Arzner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dororthy Arzner.swift"; sourceTree = "<group>"; };
 		F30A248C2A4B88B600C25881 /* RevealHer Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RevealHer Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F30A248F2A4B88B600C25881 /* RevealHer_Final_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealHer_Final_ProjectApp.swift; sourceTree = "<group>"; };
 		F30A24912A4B88B600C25881 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,10 +66,11 @@
 				F30A248F2A4B88B600C25881 /* RevealHer_Final_ProjectApp.swift */,
 				F30A24912A4B88B600C25881 /* ContentView.swift */,
 				F30A249D2A4B8B7F00C25881 /* Flashcard 1.swift */,
-				76A7515A2A4CCFF10020C382 /* SwiftUIView.swift */,
 				F30A24C42A4CE09B00C25881 /* Shirley Chisholm.swift */,
 				F30A24C62A4CE0C900C25881 /* Anna Bissell.swift */,
 				F30A24C82A4CE13300C25881 /* Grace Hopper.swift */,
+				76A7515C2A4DF27C0020C382 /* Ida B. Wells.swift */,
+				76A7515E2A4DF2AB0020C382 /* Dororthy Arzner.swift */,
 				F30A24932A4B88BA00C25881 /* Assets.xcassets */,
 				F30A24952A4B88BA00C25881 /* Preview Content */,
 			);
@@ -155,8 +158,9 @@
 				F30A249E2A4B8B7F00C25881 /* Flashcard 1.swift in Sources */,
 				F30A24C72A4CE0C900C25881 /* Anna Bissell.swift in Sources */,
 				F30A24C52A4CE09B00C25881 /* Shirley Chisholm.swift in Sources */,
+				76A7515D2A4DF27C0020C382 /* Ida B. Wells.swift in Sources */,
 				F30A24922A4B88B600C25881 /* ContentView.swift in Sources */,
-				76A7515B2A4CCFF10020C382 /* SwiftUIView.swift in Sources */,
+				76A7515F2A4DF2AB0020C382 /* Dororthy Arzner.swift in Sources */,
 				F30A24902A4B88B600C25881 /* RevealHer_Final_ProjectApp.swift in Sources */,
 				F30A24C92A4CE13300C25881 /* Grace Hopper.swift in Sources */,
 			);
