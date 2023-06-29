@@ -22,6 +22,9 @@
 		F30A24C52A4CE09B00C25881 /* Shirley Chisholm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A24C42A4CE09B00C25881 /* Shirley Chisholm.swift */; };
 		F30A24C72A4CE0C900C25881 /* Anna Bissell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A24C62A4CE0C900C25881 /* Anna Bissell.swift */; };
 		F30A24C92A4CE13300C25881 /* Grace Hopper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A24C82A4CE13300C25881 /* Grace Hopper.swift */; };
+		F3526CED2A4E0CDA002C7636 /* STEMHomepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3526CEC2A4E0CDA002C7636 /* STEMHomepage.swift */; };
+		F3526CEF2A4E0CE6002C7636 /* ArtsHomepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3526CEE2A4E0CE6002C7636 /* ArtsHomepage.swift */; };
+		F3526CF12A4E0CF1002C7636 /* LeadershipHomepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3526CF02A4E0CF1002C7636 /* LeadershipHomepage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,9 @@
 		F30A24C42A4CE09B00C25881 /* Shirley Chisholm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shirley Chisholm.swift"; sourceTree = "<group>"; };
 		F30A24C62A4CE0C900C25881 /* Anna Bissell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Anna Bissell.swift"; sourceTree = "<group>"; };
 		F30A24C82A4CE13300C25881 /* Grace Hopper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Grace Hopper.swift"; sourceTree = "<group>"; };
+		F3526CEC2A4E0CDA002C7636 /* STEMHomepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEMHomepage.swift; sourceTree = "<group>"; };
+		F3526CEE2A4E0CE6002C7636 /* ArtsHomepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtsHomepage.swift; sourceTree = "<group>"; };
+		F3526CF02A4E0CF1002C7636 /* LeadershipHomepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadershipHomepage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 		F30A24832A4B88B600C25881 = {
 			isa = PBXGroup;
 			children = (
+				F3526CF02A4E0CF1002C7636 /* LeadershipHomepage.swift */,
+				F3526CEE2A4E0CE6002C7636 /* ArtsHomepage.swift */,
+				F3526CEC2A4E0CDA002C7636 /* STEMHomepage.swift */,
 				F30A248E2A4B88B600C25881 /* RevealHer Final Project */,
 				F30A248D2A4B88B600C25881 /* Products */,
 			);
@@ -176,8 +185,11 @@
 				F30A24C52A4CE09B00C25881 /* Shirley Chisholm.swift in Sources */,
 				76A751632A4DF86A0020C382 /* Mae Jemison.swift in Sources */,
 				76A7515D2A4DF27C0020C382 /* Ida B. Wells.swift in Sources */,
+				F3526CEF2A4E0CE6002C7636 /* ArtsHomepage.swift in Sources */,
+				F3526CED2A4E0CDA002C7636 /* STEMHomepage.swift in Sources */,
 				F30A24922A4B88B600C25881 /* ContentView.swift in Sources */,
 				76A7515F2A4DF2AB0020C382 /* Dororthy Arzner.swift in Sources */,
+				F3526CF12A4E0CF1002C7636 /* LeadershipHomepage.swift in Sources */,
 				F30A24902A4B88B600C25881 /* RevealHer_Final_ProjectApp.swift in Sources */,
 				76A751672A4DFA1E0020C382 /* Michelle Obama.swift in Sources */,
 				76A751692A4DFB2F0020C382 /* Angela Merkel.swift in Sources */,
