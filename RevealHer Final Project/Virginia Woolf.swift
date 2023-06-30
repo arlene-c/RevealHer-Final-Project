@@ -1,33 +1,33 @@
 //
-//  Hedy Lamar.swift
+//  Virginia Woolf.swift
 //  RevealHer Final Project
 //
-//  Created by Kate Hwang on 6/29/23.
+//  Created by Kate Hwang on 6/30/23.
 //
 
 import SwiftUI
 
-struct Hedy_Lamar: View {
+struct Virginia_Woolf: View {
     var body: some View {
         ZStack {
                     Color("mid-purple")
                         .ignoresSafeArea()
                     VStack(alignment: .center, spacing: 40.0) {
-                        Image("hedyLamarr")
+                        Image("VirginiaWoolf")
                             .resizable()
                             .aspectRatio(contentMode:.fit)
                             .cornerRadius(18)
                         HStack {
-                            Text("Hedy Lamarr")
+                            Text("Virginia Woolf")
                                 .font(.title)
                                 .fontWeight(.heavy)
                                 .multilineTextAlignment(.center)
                                 
-                            Text("From Actor to Inventor")
+                            Text("To the Lighthouse and beyond!")
                                 .multilineTextAlignment(.center)
                         }
                         
-                        Text("Lamarr was an Austrian-born American actress who also went on to invent a frequency hopping technology, or what became known as Wi-Fi. After receiving a patent for her invention in 1942, Lamarr donated the technology to the US military to help fight the Nazis, specifically to help guide torpeoes underwater without being detected.")
+                        Text("Virginia Woolf was one of the most innovatibe writers of the 20th century. While she is best known for her books, she was also a prolific writer of essays, diaries, letters, and biographies. As a femenist, Virginia Woolf wrote many books and articles about gender apartheid and she gave many lectures about woman and literature.")
                             .fontWeight(.light)
                             .multilineTextAlignment(.center)
                            
@@ -38,12 +38,14 @@ struct Hedy_Lamar: View {
                     .cornerRadius(18)
                     .padding()
                 }
+                
+                
+                
+            }
+        }
 
-    }
-}
-
-struct Hedy_Lamar_Previews: PreviewProvider {
+struct Virginia_Woolf_Previews: PreviewProvider {
     static var previews: some View {
-        Hedy_Lamar()
+        Virginia_Woolf()
     }
 }
