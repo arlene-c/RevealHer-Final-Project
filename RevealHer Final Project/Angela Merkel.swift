@@ -27,7 +27,7 @@ struct Angela_Merkel: View {
                         .multilineTextAlignment(.center)
                 }
                 
-                Text("During her time as the Chancellor of Germany, Angela Merkel established herself as a pragmatic, empathetic woman. When a fire devastated the overcrowded Moria refugee camp in Greek, Merkel quickly agreed to accept approximately 2,750 people to Germany, including unaccompanied minors, a move that pressured other EU countries to do their part and help too.")
+                Text("During her time as the Chancellor of Germany, Angela Merkel established herself as a pragmatic, empathetic woman. When a fire devastated the overcrowded Moria refugee camp in Greece, Merkel quickly agreed to accept approximately 2,750 people to Germany, including unaccompanied minors, a move that pressured other EU countries to do their part and help too.")
                     .fontWeight(.light)
                     .multilineTextAlignment(.center)
                 

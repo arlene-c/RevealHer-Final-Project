@@ -29,12 +29,13 @@ struct Grace_Hopper: View {
                             Spacer()
                         }
                         
-                        Text("Hopper is known for her trailblazing contributions to computer programming and software development. She pioneered the idea of automatic programming and created the first compiler A-O, critical for modern programming languages. She was also a US Navy rear admiral, and her success in both these male dominated fields became an exceptional inspiration for many.")
+                        Text("Hopper is known for her trailblazing contributions to computer programming and software development. She pioneered the idea of automatic programming and created the first compiler A-O, critical for modern programming languages. She was also a US Navy rear admiral, achieving success in both these male dominated fields.")
                             .fontWeight(.light)
                             .multilineTextAlignment(.center)
-                           
+                     
                         
                     }
+                   
                     .padding()
                     .background(Rectangle() . foregroundColor(.white))
                     .cornerRadius(18)

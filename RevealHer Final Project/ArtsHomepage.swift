@@ -45,6 +45,11 @@ struct ArtsHomepage: View {
                         .foregroundColor(Color("custom green"))
                 }
                
+                NavigationLink(destination:Virginia_Woolf()) {
+                    Text("Virginia Woolf")
+                        .font(.custom("Montserrat-VariableFont_wght",size:30))
+                        .foregroundColor(Color("custom green"))
+                }
                 NavigationLink(destination:Dororthy_Arzner()) {
                     Text("Dorothy Arzner")
                         .font(.custom("Montserrat-VariableFont_wght",size:30))
@@ -57,14 +62,7 @@ struct ArtsHomepage: View {
                         .foregroundColor(Color("custom green"))
                 }
                 
-              // MISSING ONE PERSON FOR ARTS + MEDIA
-                NavigationLink(destination:Mae_Jemison()) {
-                    Text("")
-                        .font(.custom("Montserrat-VariableFont_wght",size:30))
-                        .foregroundColor(Color("custom green"))
-                    
-                    
-                }
+              
                 
 
             }

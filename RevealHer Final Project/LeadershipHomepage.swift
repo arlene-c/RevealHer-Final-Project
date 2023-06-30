@@ -20,7 +20,7 @@ struct LeadershipHomepage: View {
                     
                 
                 
-                Text("Women in Leadership Roles")
+                Text("Women in Leadership")
                     .font(.custom("AbrilFatface-Regular", size:45))
                     .font(.title)
                     .fontWeight(.bold)

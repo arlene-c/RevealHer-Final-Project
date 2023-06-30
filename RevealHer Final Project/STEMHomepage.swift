@@ -53,7 +53,7 @@ struct STEMHomepage: View {
                 }
                
                 NavigationLink(destination:Hedy_Lamar()) {
-                    Text("Hedy Lamar")
+                    Text("Hedy Lamarr")
                         .font(.custom("Montserrat-VariableFont_wght",size:30))
                         .foregroundColor(Color("cool gray"))
                         

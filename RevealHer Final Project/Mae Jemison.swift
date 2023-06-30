@@ -27,7 +27,7 @@ struct Mae_Jemison: View {
                         .multilineTextAlignment(.center)
                 }
                 
-                Text("In 1992, Mae Jemison went into orbit aboard the Space Shuttle Endeavour as the first African American woman in sapce. As the science mission specialist ont he flight, she conducted experiments in life sciences, material sciences, and was even an investigator in a bone cell reserach experiment.")
+                Text("In 1992, Mae Jemison went into orbit aboard the Space Shuttle Endeavour as the first African American woman in space. As the science mission specialist on the flight, she conducted experiments in life sciences, material sciences, and was even an investigator in a bone cell reserach experiment.")
                     .fontWeight(.light)
                     .multilineTextAlignment(.center)
                 

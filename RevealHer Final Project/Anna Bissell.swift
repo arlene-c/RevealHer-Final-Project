@@ -29,7 +29,7 @@ struct Anna_Bissell: View {
                             Spacer()
                         }
                         
-                        Text("Anna Bissell was America's first ever female CEO, being a true pioneer of her time. She was a huge proponent and salesperson for her and her husband's sweeper company, convincing one of the United States' first department stores to carry the product. She was both an active philanthropist and businesswoman, creating a legacy for woman to become leaders/CEOs of many corporations.")
+                        Text("Anna Bissell was America's first ever female CEO, being a true pioneer of her time. She was a huge proponent and salesperson for her and her husband's sweeper company, convincing one of the United States' first department stores to carry the product. She was both an active philanthropist and businesswoman, creating a legacy for women to become leaders/CEOs.")
                             .fontWeight(.light)
                             .multilineTextAlignment(.center)
                            

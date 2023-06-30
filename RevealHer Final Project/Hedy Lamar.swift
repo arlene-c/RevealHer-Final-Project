@@ -10,7 +10,7 @@ import SwiftUI
 struct Hedy_Lamar: View {
     var body: some View {
         ZStack {
-                    Color("mid-purple")
+                    Color("periwinkle")
                         .ignoresSafeArea()
                     VStack(alignment: .center, spacing: 40.0) {
                         Image("hedyLamarr")
@@ -27,7 +27,7 @@ struct Hedy_Lamar: View {
                                 .multilineTextAlignment(.center)
                         }
                         
-                        Text("Lamarr was an Austrian-born American actress who also went on to invent a frequency hopping technology, or what became known as Wi-Fi. After receiving a patent for her invention in 1942, Lamarr donated the technology to the US military to help fight the Nazis, specifically to help guide torpeoes underwater without being detected.")
+                        Text("Lamarr was an Austrian-born American actress who also went on to invent a frequency hopping technology, or what became known as Wi-Fi. After receiving a patent for her invention in 1942, Lamarr donated the technology to the US military to help fight the Nazis, specifically to help guide torpedoes underwater without being detected.")
                             .fontWeight(.light)
                             .multilineTextAlignment(.center)
                            

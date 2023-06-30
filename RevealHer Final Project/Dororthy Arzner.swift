@@ -27,7 +27,7 @@ struct Dororthy_Arzner: View {
                         .multilineTextAlignment(.center)
                 }
                 
-                Text("Dorothy Arzner was the first woman to join the Directors Guild of American and the first woman to direct a sound film. She made a total of twenty films between 1927 and 1943, launching the careers of a number of Hollywood actresses, including Katharine Hpeburn, Rosalind Russell, and Lucille Ball.")
+                Text("Dorothy Arzner was the first woman to join the Directors Guild of America and the first woman to direct a sound film. She made a total of twenty films between 1927 and 1943, launching the careers of a number of Hollywood actresses, including Katharine Hepburn, Rosalind Russell, and Lucille Ball.")
                     .fontWeight(.light)
                     .multilineTextAlignment(.center)
             

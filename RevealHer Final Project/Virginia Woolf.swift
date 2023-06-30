@@ -27,7 +27,7 @@ struct Virginia_Woolf: View {
                                 .multilineTextAlignment(.center)
                         }
                         
-                        Text("Virginia Woolf was one of the most innovatibe writers of the 20th century. While she is best known for her books, she was also a prolific writer of essays, diaries, letters, and biographies. As a femenist, Virginia Woolf wrote many books and articles about gender apartheid and she gave many lectures about woman and literature.")
+                        Text("Virginia Woolf was one of the most innovative writers of the 20th century. While she is best known for her books, she was also a prolific writer of essays, diaries, letters, and biographies. As a feminist, Virginia Woolf wrote many books and articles about gender apartheid and she gave many lectures about women and literature.")
                             .fontWeight(.light)
                             .multilineTextAlignment(.center)
                            

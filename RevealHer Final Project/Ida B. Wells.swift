@@ -27,7 +27,7 @@ struct Ida_B__Wells: View {
                         .multilineTextAlignment(.center)
                 }
                 
-                Text("Ida B. Wells was an American investigative jounralist, educator, and civil rights activist who was one of the founders of the National Association for the Advancement of Colored People (NAACP). She used her platform as a journalist to talk about the conditions of tsegregated schools in the south, and she investigated the lynching cases in the South.")
+                Text("Ida B. Wells was an American investigative journalist, educator, and civil rights activist who was one of the founders of the National Association for the Advancement of Colored People (NAACP). She used her platform as a journalist to talk about the conditions of segregated schools in the south, and she investigated the lynching cases in the South.")
                     .fontWeight(.light)
                     .multilineTextAlignment(.center)
             
