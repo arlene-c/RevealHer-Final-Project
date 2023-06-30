@@ -41,26 +41,28 @@ struct STEMHomepage: View {
                 NavigationLink(destination:Flashcard_1()) {
                     Text("Rosalind Franklin")
                         .font(.custom("Montserrat-VariableFont_wght",size:30))
-                        .foregroundColor(Color("light"))
+                        .foregroundColor(Color("cool gray"))
+                       
                 }
                
                 NavigationLink(destination:Grace_Hopper()) {
                     Text("Grace Hopper")
                         .font(.custom("Montserrat-VariableFont_wght",size:30))
-                        .foregroundColor(Color("light"))
+                        .foregroundColor(Color("cool gray"))
+                        
                 }
                
                 NavigationLink(destination:Hedy_Lamar()) {
                     Text("Hedy Lamar")
                         .font(.custom("Montserrat-VariableFont_wght",size:30))
-                        .foregroundColor(Color("light"))
+                        .foregroundColor(Color("cool gray"))
+                        
                 }
               
                 NavigationLink(destination:Mae_Jemison()) {
                     Text("Mae Jemison")
                         .font(.custom("Montserrat-VariableFont_wght",size:30))
-                        .foregroundColor(Color("light"))
-                    
+                        .foregroundColor(Color("cool gray"))
                     
                 }
                 
