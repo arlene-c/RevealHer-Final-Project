@@ -10,96 +10,73 @@ import SwiftUI
 struct LeadershipHomepage: View {
     var body: some View {
         NavigationStack {
-                VStack(alignment: .center) {
-                    
-                    Text("Leadership")
-                        .font(.custom("AbrilFatface-Regular", size:50))
-                        .fontWeight(.bold)
+            VStack(alignment: .center) {
+                NavigationLink(destination:ContentView()) {
+                    Text("HOME")
+                        .font(.headline)
                         
-                    
-                    Image("briefcase")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width:200)
-                    
-                        
-                    Spacer()
-                    Text("Explore the profound women who have impacted female leadership positions")
-                        .font(.custom("AbrilFatface-Regular", size:15))
-                    Text("Select a Field to Learn More")
-                        .multilineTextAlignment(.leading)
-                        .font(.title3)
-                    Spacer()
-                    Spacer()
-                    
-                    ZStack {
-                        HStack() {
-                            Spacer()
-                            NavigationLink(destination: STEMHomepage()) {
-                                Image("beaker")
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fit)
-                                    .frame(width:60)
-                                    .padding()
-                                    .background(Rectangle()
-                                        .foregroundColor(Color("air force blue"))
-                                        .cornerRadius(15))
-                                    .shadow(radius:15)
-                            }
-                            Spacer()
-                            NavigationLink(destination:ArtsHomepage()) {
-                                Image("brush clipart")
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fit)
-                                    .frame(width:50)
-                                    .padding()
-                                    .background(Rectangle()
-                                        .foregroundColor(Color("air force blue")))
-                                    .cornerRadius(15)
-                                    .shadow(radius:15)
-                            }
-                            Spacer()
-                            NavigationLink(destination:LeadershipHomepage()){
-                                Image("briefcase")
-                                    .resizable()
-                                    .aspectRatio(contentMode:.fit)
-                                    .frame(width:70)
-                                    .padding()
-                                    .background(Rectangle()
-                                        .foregroundColor(Color("air force blue")))
-                                    .cornerRadius(15)
-                                    .shadow(radius:15)
-                            }
-                            Spacer()
-                        }
-                    }
-                    
-                    HStack() {
-                       Spacer()
-                       Spacer()
-                        Text("STEM")
-                            .font(.custom("Montserrat-Italic-VariableFont_wght", size:20))
-                            
                         Spacer()
-                        Spacer()
-                        Text("Arts & Media")
-                            .font(.custom("Montserrat-Italic-VariableFont_wght", size:20))
-                        Spacer()
-                        Text("Leadership")
-                            .font(.custom("Montserrat-Italic-VariableFont_wght", size:20))
-                        Spacer()
-                    }
-                    
-                    
-                    Spacer()
                 }
-            
-            
-            
-
+                    
+                
+                
+                Text("Women in Leadership Roles")
+                    .font(.custom("AbrilFatface-Regular", size:45))
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                
+                
+                Image("female-leader")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                
+                Spacer()
+                
+                Text("Who would you like to learn about today?")
+                    .font(.custom("AbrilFatface-Regular", size:30))
+                    .font(.title)
+                    .fontWeight(.regular)
+                    .multilineTextAlignment(.center)
+                
+                Spacer()
+                NavigationLink(destination:Shirley_Chisholm()) {
+                    Text("Shirley Chisholm")
+                        .font(.custom("Montserrat-VariableFont_wght",size:30))
+                        .foregroundColor(Color("leader-color"))
+                }
+               
+                NavigationLink(destination:Anna_Bissell()) {
+                    Text("Anna Bissell")
+                        .font(.custom("Montserrat-VariableFont_wght",size:30))
+                        .foregroundColor(Color("leader-color"))
+                }
+               
+                NavigationLink(destination:Michelle_Obama()) {
+                    Text("Michelle Obama")
+                        .font(.custom("Montserrat-VariableFont_wght",size:30))
+                        .foregroundColor(Color("leader-color"))
+                }
+              
+                NavigationLink(destination:Angela_Merkel()) {
+                    Text("Angela Merkel")
+                        .font(.custom("Montserrat-VariableFont_wght",size:30))
+                        .foregroundColor(Color("leader-color"))
+                    
+                    
+                }
+                
+                
+                
+                
+                
+            }
         }
+        .padding()
+
     }
 }
+
 
 struct LeadershipHomepage_Previews: PreviewProvider {
     static var previews: some View {

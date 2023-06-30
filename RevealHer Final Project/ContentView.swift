@@ -12,8 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            Color("light")
-                .ignoresSafeArea()
+            
             NavigationStack {
                         VStack(alignment: .center) {
                             
@@ -100,18 +99,8 @@ struct ContentView: View {
                         
  
                 }
-                .background(Rectangle() . foregroundColor(.white))
-                       .cornerRadius(18)
-                       .padding()
+            .padding()
         }
-        
-
-        
-        
-      
-               
-                   
-
         
 
     }

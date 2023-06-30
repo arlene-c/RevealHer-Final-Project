@@ -11,8 +11,16 @@ struct STEMHomepage: View {
     var body: some View {
         NavigationStack {
             VStack(alignment: .center) {
+                NavigationLink(destination:ContentView()) {
+                    Text("HOME")
+                        .font(.headline)
+                        
+                        Spacer()
+                }
+                
+                
                 Text("Women in STEM")
-                    .font(.custom("AbrilFatface-Regular", size:50))
+                    .font(.custom("AbrilFatface-Regular", size:45))
                     .font(.title)
                     .fontWeight(.bold)
                 
@@ -21,32 +29,50 @@ struct STEMHomepage: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                 
+                Spacer()
+                
                 Text("Who would you like to learn about today?")
                     .font(.custom("AbrilFatface-Regular", size:30))
                     .font(.title)
                     .fontWeight(.regular)
                     .multilineTextAlignment(.center)
-                HStack {
-                    NavigationLink(destination:Flashcard_1()) {
-                        Text("Rosalind Franklin")
-                            .font(.custom("Montserrat-VariableFont_wght",size:30))
-                   
-
-                    }
-                }
-                Spacer()
-                Spacer()
                 
+                Spacer()
+                NavigationLink(destination:Flashcard_1()) {
+                    Text("Rosalind Franklin")
+                        .font(.custom("Montserrat-VariableFont_wght",size:30))
+                        .foregroundColor(Color("light"))
+                }
+               
+                NavigationLink(destination:Grace_Hopper()) {
+                    Text("Grace Hopper")
+                        .font(.custom("Montserrat-VariableFont_wght",size:30))
+                        .foregroundColor(Color("light"))
+                }
+               
+                NavigationLink(destination:Hedy_Lamar()) {
+                    Text("Hedy Lamar")
+                        .font(.custom("Montserrat-VariableFont_wght",size:30))
+                        .foregroundColor(Color("light"))
+                }
+              
+                NavigationLink(destination:Mae_Jemison()) {
+                    Text("Mae Jemison")
+                        .font(.custom("Montserrat-VariableFont_wght",size:30))
+                        .foregroundColor(Color("light"))
+                    
+                    
+                }
+                
+
             }
-            
-            
         }
+        .padding()
     }
-    
-    
     struct STEMHomepage_Previews: PreviewProvider {
         static var previews: some View {
             STEMHomepage()
         }
     }
+    
 }

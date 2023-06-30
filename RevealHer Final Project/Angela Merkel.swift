@@ -13,7 +13,7 @@ struct Angela_Merkel: View {
             Color("dark purple")
                 .ignoresSafeArea()
             VStack(alignment: .center, spacing: 40.0) {
-                Image("angelaMerkel")
+                Image("angela merkel")
                     .resizable()
                     .aspectRatio(contentMode:.fit)
                     .cornerRadius(18)
